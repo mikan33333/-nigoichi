@@ -13,13 +13,6 @@ class Player{
     constructor(obj={}){
         this.socketId = obj.socketId;
         this.nickname = obj.nickname;
-        this.width = 80;
-        this.height = 80;
-        this.movement = {};
-    }
-        move(distance){
-        this.x += distance * Math.cos(this.angle);
-        this.y += distance * Math.sin(this.angle);
     }
 }
 
